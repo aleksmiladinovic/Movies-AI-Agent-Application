@@ -5,7 +5,7 @@ from vector import retriever
 model = OllamaLLM(model="llama3.2")
 
 template = """
-You are an expert in answering questions about movies. You give short answer.
+You are an expert in answering questions about movies.
 
 Here are some relevant movie descriptions: {descriptions}
 
