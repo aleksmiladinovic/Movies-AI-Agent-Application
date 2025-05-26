@@ -21,13 +21,13 @@ namespace MoviesAIAgentApp
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button_Clear_Content(object sender, EventArgs e)
         {
             textBox1.Clear();
             richTextBox1.Clear();
         }
 
-        private async void button1_Click(object sender, EventArgs e)
+        private async void button_Ask_Question(object sender, EventArgs e)
         {
             string question = textBox1.Text;
 
@@ -62,7 +62,7 @@ namespace MoviesAIAgentApp
             }
         }
 
-        private async void button3_Click(object sender, EventArgs e)
+        private async void button_Print_History(object sender, EventArgs e)
         {
             using (HttpClient print_history_client = new HttpClient())
             {
@@ -80,7 +80,7 @@ namespace MoviesAIAgentApp
             }
         }
 
-        private async void button4_Click(object sender, EventArgs e)
+        private async void button_Delete_history(object sender, EventArgs e)
         {
             using (HttpClient delete_history_client = new HttpClient())
             {
