@@ -47,7 +47,7 @@ This repository contains a prototype application that provides intelligent movie
 4. Run the Flask app:
 
    ```bash
-   flask run
+   python apiagent.py
    ```
 <!--
 ### Frontend Setup
