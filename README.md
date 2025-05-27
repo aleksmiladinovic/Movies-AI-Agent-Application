@@ -49,13 +49,13 @@ This repository contains a prototype application that provides intelligent movie
    ```bash
    flask run
    ```
-
+<!--
 ### Frontend Setup
 
 1. Open the `MovieRecommenderApp.sln` solution in Visual Studio.
 2. Build and run the application.
 3. Enter your query and click submit to receive a movie recommendation.
-
+-->
 ## 🔐 Future Enhancements
 
 * Add API key support for request authentication
